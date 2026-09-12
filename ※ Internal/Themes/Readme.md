@@ -1,0 +1,1 @@
+Themes documentation: https://translation-devouring-siltcurren.gitbook.io/lc-localization-interface/interface-modifying/theme
