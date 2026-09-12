@@ -18,16 +18,16 @@
 
 
 
-{Regex Option} - Свой счётчик эффектов
+{Regex Option} - Счётчик своих эффектов
   
 * Pattern: Gain \+(\d+) \[Vibration\] Count
-  Replace: Повышает свой счётчик [Vibration:`Тремора`] на $1
+  Replace: Повышает счётчик своего [Vibration:`Тремора`] на $1
   
 * Pattern: Gain \+(\d+) \[Breath\] Count
-  Replace: Повышает свой счётчик [Breath:`Дыхания`] на $1
+  Replace: Повышает счётчик своего [Breath:`Дыхания`] на $1
   
 * Pattern: Gain \+(\d+) \[Charge\] Count
-  Replace: Повышает свой счётчик [Charge:`Заряда`] на $1
+  Replace: Повышает счётчик своего [Charge:`Заряда`] на $1
 
 
 
