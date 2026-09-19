@@ -11338,8 +11338,7 @@
           "parryingCloseType": "NEAR",
           "abilityScriptList": [
             {
-              "scriptName": "DealRandomTargetAmongTargetsMTFirst",
-              "value" : 1
+              "scriptName": "DealRandomTargetAmongTargetsMTFirst"
             },
             {
               "scriptName": "SkillPowerResultAdderOnSTViaSumOfTwoBuffStackDivide_Burst_DimensionRift",

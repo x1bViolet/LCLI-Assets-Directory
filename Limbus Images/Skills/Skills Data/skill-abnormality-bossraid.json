@@ -1034,6 +1034,1050 @@
           ]
         }
       ]
+    },
+
+    {
+      "id": 500101,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 809901,
+          "attributeType": "VIOLET",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 3,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveAdditionalHitDmgOnSuccessAttackTarget3"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveAdditionalHitDmgOnSuccessAttackTarget3"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Paralysis",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500102,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 809902,
+          "attributeType": "VIOLET",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 3,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveAdditionalHitDmgOnSuccessAttackTarget5"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveAdditionalHitDmgOnSuccessAttackTarget5"
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Paralysis",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500103,
+      "skillTier": 2,
+      "skillData": [
+        {
+          "iconID": 809903,
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "COUNTER",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 12,
+          "skillMotion": "S3",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 4
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveMpDmgOnSucceedAttackTarget5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500104,
+      "skillTier": 2,
+      "skillData": [
+        {
+          "iconID": 809906,
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 10,
+          "skillMotion": "S6",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 1,
+          "abilityScriptList": [
+            {
+              "scriptName": "CoinScaleAdder3IfMpLessThan0"
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "HealMpOnSucceedAttackSelf10"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Binding",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Reduction",
+                    "target": "Target",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 6,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveMpDmgOnSucceedAttackTarget20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500105,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 809907,
+          "attributeType": "VIOLET",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 6,
+          "skillMotion": "S7",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 1,
+          "abilityScriptList": [
+            {
+              "scriptName": "809907",
+              "value": 2
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500106,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 809905,
+          "attributeType": "INDIGO",
+          "atkType": "NONE",
+          "defType": "EVADE",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillLevelCorrection": -5,
+          "defaultValue": 10,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500107,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "iconID": 809909,
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 7,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 4,
+          "defaultValue": 16,
+          "skillMotion": "S8",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 3,
+          "arearange": 7,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "Enhancement",
+                "target": "Self",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "AttackDmgMultiplierAndTargetNotBreakOnLoseDuel",
+              "value": -0.3
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "DamageFirstBreakSectionOnSuccessAttackIfUsableInDuel",
+                  "value": 30
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+                  "buffData": {
+                    "buffKeyword": "Paralysis",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                },
+                {
+                  "scriptName": "LoseBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "MiddleFingerBook",
+                    "target": "Target",
+                    "stack": 5,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500108,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "iconID": 112702,
+          "attributeType": "VIOLET",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 4,
+          "skillMotion": "S5",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 1,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackHighestStackTarget_RicardoBookRaid"
+            },
+            {
+              "scriptName": "OverwriteToSuperCoinViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "RicardoBookRaid",
+                "buffOwner": "Target",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vulnerable",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vulnerable",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vulnerable",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Vulnerable",
+                    "target": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 1
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveAdditionalHitDmgOnSuccessAttackTargetViaBuffDevide",
+                  "buffData": {
+                    "buffKeyword": "RicardoBookRaid",
+                    "buffOwner": "Target",
+                    "stack": 1,
+                    "turn": 0,
+                    "activeRound": 0,
+                    "value": 3
+                  }
+                },
+                {
+                  "scriptName": "LoseBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "RicardoBookRaid",
+                    "target": "Target",
+                    "stack": 3,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500109,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 112703,
+          "attributeType": "INDIGO",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 8,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "HealMpOnBattleStartSelf20"
+            },
+            {
+              "scriptName": "GiveBuffOnRoundEndAlive",
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500110,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "iconID": 809909,
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 7,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 16,
+          "skillMotion": "S9",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 3,
+          "actionScript": 112704,
+          "range": 10,
+          "arearange": 6,
+          "abilityScriptList": [
+            {
+              "scriptName": "AttackDmgMultiplierAndTargetNotBreakOnLoseDuel",
+              "value": -0.3
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 8,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveAdditionalDmgViaEachTargetBuffStackAndMaxHpRatioOnSuccessAttackUsableCoin",
+                  "buffData": {
+                    "buffKeyword": "RicardoBookRaid",
+                    "value": 0.03
+                  }
+                },
+                {
+                  "scriptName": "LoseBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "MiddleFingerBook",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500111,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 809904,
+          "attributeType": "AMBER",
+          "atkType": "NONE",
+          "defType": "GUARD",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 2,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "5001SkillForMiddleFinger",
+              "value": 10
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500112,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 809909,
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 7,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 3,
+          "skillMotion": "S8",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveMpDmgOnBattleStartSelf20"
+            },
+            {
+              "scriptName": "GiveBuffOnBattleStart",
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "stack": 6,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnBattleStart",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Self",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500113,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 809905,
+          "attributeType": "INDIGO",
+          "atkType": "NONE",
+          "defType": "EVADE",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 1,
+          "defaultValue": 10,
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnRoundEndIfTargetedByAttackGiveStackDown",
+              "buffData": {
+                "buffKeyword": "AttackUp",
+                "target": "Self",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1,
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500114,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "iconID": 809906,
+          "attributeType": "CRIMSON",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 4,
+          "skillMotion": "S5",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveAdditionalDmgViaEachTargetBuffStackAndMaxHpRatioOnSuccessAttackUsableCoin",
+                  "buffData": {
+                    "buffKeyword": "RicardoBookRaid",
+                    "value": 0.01
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveAdditionalDmgViaEachTargetBuffStackAndMaxHpRatioOnSuccessAttackUsableCoin",
+                  "buffData": {
+                    "buffKeyword": "RicardoBookRaid",
+                    "value": 0.01
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 4,
+              "abilityScriptList": [
+                {
+                  "scriptName": "GiveAdditionalDmgViaEachTargetBuffStackAndMaxHpRatioOnSuccessAttackUsableCoin",
+                  "buffData": {
+                    "buffKeyword": "RicardoBookRaid",
+                    "value": 0.01
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500115,
+      "skillTier": 3,
+      "skillData": [
+        {
+          "iconID": 112701,
+          "attributeType": "INDIGO",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 3,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 0,
+          "defaultValue": 5,
+          "arearange": 2,
+          "skillMotion": "S4",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 2,
+          "actionScript": 112701,
+          "abilityScriptList": [
+            {
+              "scriptName": "GiveBuffOnUse",
+              "buffData": {
+                "buffKeyword": "HitDamageUp",
+                "target": "Self",
+                "stack": 3,
+                "turn": 0,
+                "activeRound": 1
+              }
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 7
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500116,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "attributeType": "AMBER",
+          "atkType": "HIT",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": -2,
+          "defaultValue": 3,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "importanceLevel": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "grade": 2,
+              "color": "GREY",
+              "scale": 3,
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "LoseBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "RicardoBookRaid",
+                    "target": "Target",
+                    "stack": 10,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                },
+                {
+                  "scriptName": "BreakTargetOnSucceedAttackIfUsableInDuel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500301,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 9102005,
+          "attributeType": "INDIGO",
+          "atkType": "HIT",
+          "defType": "COUNTER",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillMotion": "S5",
+          "viewType": "BATTLE",
+          "range": 6,
+          "arearange": 3,
+          "parryingCloseType": "NEAR",
+          "skillLevelCorrection": -5,
+          "defaultValue": 2,
+          "abilityScriptList": [
+            {
+              "scriptName": "CounterShieldViaBuff",
+              "turnLimit": 1,
+              "buffData": {
+                "buffKeyword": "MiddleFingerBook",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "value": 5,
+                "limit": 50
+              }
+            },
+            {
+              "scriptName": "SkillPowerAdderOnUseViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "MiddleFingerBook",
+                "buffOwner": "Target",
+                "target": "",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 3
+              }
+            },
+            {
+              "scriptName": "GiveBuffOnUseIfHasStack_MiddleFingerBook5",
+              "buffData": {
+                "buffKeyword": "DefenseDown",
+                "target": "Target",
+                "buffOwner": "Target",
+                "stack": 4,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 2
+            },
+            {
+              "operatorType": "ADD",
+              "scale": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500401,
+      "skillTier": 1,
+      "skillData": [
+        {
+          "iconID": 9009606,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "attributeType": "INDIGO",
+          "atkType": "HIT",
+          "defType": "COUNTER",
+          "skillMotion": "Default",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "targetNum": 1,
+          "defaultValue": 8,
+          "skillLevelCorrection": -4,
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "ADD",
+              "scale": 5
+            }
+          ]
+        }
+      ]
     }
   ]
 }

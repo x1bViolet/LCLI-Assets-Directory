@@ -7295,7 +7295,7 @@
               }
             },
             {
-              "scriptName": "CoinScaleAdderDevideBySumOfTwoBuffStack_Combustion_Vibration",
+              "scriptName": "CoinScaleAdderDivideBySumOfTwoBuffStack_Combustion_Vibration",
               "buffData": {
                 "buffKeyword": "Combustion",
                 "buffOwner": "Target",
@@ -7447,7 +7447,7 @@
               }
             },
             {
-              "scriptName": "CoinScaleAdderDevideBySumOfTwoBuffStack_Combustion_Vibration",
+              "scriptName": "CoinScaleAdderDivideBySumOfTwoBuffStack_Combustion_Vibration",
               "buffData": {
                 "buffKeyword": "Combustion",
                 "buffOwner": "Target",
@@ -7601,7 +7601,7 @@
               }
             },
             {
-              "scriptName": "CoinScaleAdderDevideBySumOfTwoBuffStack_Combustion_Vibration",
+              "scriptName": "CoinScaleAdderDivideBySumOfTwoBuffStack_Combustion_Vibration",
               "buffData": {
                 "buffKeyword": "Combustion",
                 "buffOwner": "Target",
