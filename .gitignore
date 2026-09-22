@@ -1,6 +1,10 @@
-/Scans
-/Limbus Images/UI/Keywords Editor/*.png
 /※ Internal/Ignored Exceptions.json
+/Extra Replacements
+/Keywords Multiple Meanings Dictionaries
+/Limbus Images/UI/Keywords Editor/*.png
+/Localization Files Processor
+/Scans
 
 Configurazione^.json
 Context Menu Hotkeys.json
+Default Text.txt

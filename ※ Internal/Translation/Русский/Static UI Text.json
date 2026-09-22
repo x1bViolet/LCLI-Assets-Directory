@@ -1141,7 +1141,7 @@
       },
       {
         "UID": {"[Settings / Internal] * Dropdown lists Readme":null},
-        "Text": "Выпадающие списки учитывают папки только из:\n<size=92%><font=\"Consolas\">[⇲] Assets Directory\\※ Internal\\Translation\n[⇲] Assets Directory\\※ Internal\\Themes</font></size>"
+        "Text": "Выпадающие списки учитывают папки только из:\n<size=92%><font=\"Consolas\"><hyperlink=\"file:///{ApplicationFolder}/[⇲] Assets Directory/※ Internal/Translation\">[⇲] Assets Directory\\※ Internal\\Translation</hyperlink>\n<hyperlink=\"file:///{ApplicationFolder}/[⇲] Assets Directory/※ Internal/Themes\">[⇲] Assets Directory\\※ Internal\\Themes</hyperlink></font></size>"
       },
       {
         "UID": {"[Settings / Internal] * Specific title bar buttons On/Off":null},
@@ -1826,12 +1826,12 @@
       {
         "UID": {"[C] * [Unsaved Changes] Proceed":null},
         "Text": "Продолжить",
-        "Width": 150
+        "Width": 165
       },
       {
         "UID": {"[C] * [Unsaved Changes] Cancel":null},
         "Text": "Остаться",
-        "Width": 150
+        "Width": 165
       }
     ],
     [
@@ -2156,6 +2156,10 @@
       {
         "UID": {"[C] * [Section:Textual info/General options] Second column - Keyword containers width":null},
         "Text": "Ширина контейнеров ключевых слов"
+      },
+      {
+        "UID": {"[C] * [Section:Textual info/General options] Passive signatures offset in Summary Image Type":null},
+        "Text": "Смещение подписей пассивок в \"Суммарном\" типе изображения"
       }
     ],
     [
@@ -2314,6 +2318,28 @@
       {
         "UID": {"[C] * [Column element creation dialog] OK Button (Column 2)":null},
         "Text": "Добавить в колонну №2"
+      },
+
+      
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Skill 1 version":null},
+        "Text": "Добавить как версию Скилла №1"
+      },
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Skill 2 version":null},
+        "Text": "Добавить как версию Скилла №2"
+      },
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Skill 3 version":null},
+        "Text": "Добавить как версию Скилла №3"
+      },
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Defense Skill":null},
+        "Text": "Добавить как версию Защитного Скилла"
+      },
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Passive":null},
+        "Text": "Добавить Пассивку"
       }
     ],
 

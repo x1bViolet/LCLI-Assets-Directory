@@ -1141,7 +1141,7 @@
       },
       {
         "UID": {"[Settings / Internal] * Dropdown lists Readme":null},
-        "Text": "下拉選單僅會考慮來自以下資料夾的檔案與資料夾：\n<size=92%><font=\"Consolas\">[⇲] Assets Directory\\※ Internal\\Translation\n[⇲] Assets Directory\\※ Internal\\Themes</font></size>"
+        "Text": "下拉選單僅會考慮來自以下資料夾的檔案與資料夾：\n<size=92%><font=\"Consolas\"><hyperlink=\"file:///{ApplicationFolder}/[⇲] Assets Directory/※ Internal/Translation\">[⇲] Assets Directory\\※ Internal\\Translation</hyperlink>\n<hyperlink=\"file:///{ApplicationFolder}/[⇲] Assets Directory/※ Internal/Themes\">[⇲] Assets Directory\\※ Internal\\Themes</hyperlink></font></size>"
       },
       {
         "UID": {"[Settings / Internal] * Specific title bar buttons On/Off":null},
@@ -2156,6 +2156,10 @@
       {
         "UID": {"[C] * [Section:Textual info/General options] Second column - Keyword containers width":null},
         "Text": "關鍵詞框寬度"
+      },
+      {
+        "UID": {"[C] * [Section:Textual info/General options] Passive signatures offset in Summary Image Type":null},
+        "Text": "「摘要」影像類型中的被動標誌偏移"
       }
     ],
     [
@@ -2314,6 +2318,28 @@
       {
         "UID": {"[C] * [Column element creation dialog] OK Button (Column 2)":null},
         "Text": "新增元素到欄位 №2"
+      },
+
+      
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Skill 1 version":null},
+        "Text": "新增為技能 №1 的變體版本"
+      },
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Skill 2 version":null},
+        "Text": "新增為技能 №2 的變體版本"
+      },
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Skill 3 version":null},
+        "Text": "新增為技能 №3 的變體版本"
+      },
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Defense Skill":null},
+        "Text": "新增為防禦技能的變體版本"
+      },
+      {
+        "UID": {"[C] * [Column element creation dialog] OK Button (Summary Info view) - Add Passive":null},
+        "Text": "新增被動能力"
       }
     ],
 
