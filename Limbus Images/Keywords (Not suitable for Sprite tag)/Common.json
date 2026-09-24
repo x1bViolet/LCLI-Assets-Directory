@@ -1,0 +1,4 @@
+{
+  // Duality effect (SupportEnemy is ID of version for enemies)
+  "SupportAlly": ["SupportEnemy"]
+}
