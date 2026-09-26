@@ -12332,9 +12332,6 @@
                 "value": 0.1,
                 "limit": 20
               }
-            },
-            {
-              "scriptName": "1041603FailSafeTo1041605"
             }
           ],
           "coinList": [
@@ -12459,9 +12456,6 @@
                 "value": 0.2,
                 "limit": 60
               }
-            },
-            {
-              "scriptName": "1041603FailSafeTo1041605"
             }
           ],
           "coinList": [
@@ -12794,16 +12788,6 @@
             {
               "scriptName": "10416DmgMultiplierByRealisationOST_useMax60_div60_perAdder1",
               "value": 0.00333
-            },
-            {
-              "scriptName": "SkillChangeSpecialTo1041603",
-              "buffData": {
-                "buffKeyword": "NoirSuitAlly",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0
-              }
             }
           ],
           "coinList": [
@@ -12907,16 +12891,6 @@
             {
               "scriptName": "10416DmgMultiplierByRealisationOST_useMax60_div30_perAdder1",
               "value": 0.00333
-            },
-            {
-              "scriptName": "SkillChangeSpecialTo1041603",
-              "buffData": {
-                "buffKeyword": "NoirSuitAlly",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0
-              }
             }
           ],
           "coinList": [
@@ -13060,16 +13034,6 @@
             {
               "scriptName": "10416DmgMultiplierByRealisationOST_useMax60_div60_perAdder1",
               "value": 0.0033334
-            },
-            {
-              "scriptName": "SkillChangeSpecialTo1041603",
-              "buffData": {
-                "buffKeyword": "NoirSuitAlly",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0
-              }
             }
           ],
           "coinList": [
@@ -13183,16 +13147,6 @@
             {
               "scriptName": "10416DmgMultiplierByRealisationOST_useMax60_div30_perAdder1",
               "value": 0.0033334
-            },
-            {
-              "scriptName": "SkillChangeSpecialTo1041603",
-              "buffData": {
-                "buffKeyword": "NoirSuitAlly",
-                "buffOwner": "Self",
-                "stack": 0,
-                "turn": 0,
-                "activeRound": 0
-              }
             }
           ],
           "coinList": [
