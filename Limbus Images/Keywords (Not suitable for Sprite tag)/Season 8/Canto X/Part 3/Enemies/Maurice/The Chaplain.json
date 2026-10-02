@@ -1,0 +1,7 @@
+{
+  "GoldenHideWarderFirstPhase": ["GoldenHideWarderThirdPhase"],
+  "GoldenFabricWarderFirstPhase": ["GoldenFabricWarderThirdPhase"],
+
+  "EncompassingVoiceSecondPhase": ["EncompassingVoiceThirdPhase"],
+  "SpreadingVoiceSecondPhase": ["SpreadingVoiceThirdPhase"]
+}

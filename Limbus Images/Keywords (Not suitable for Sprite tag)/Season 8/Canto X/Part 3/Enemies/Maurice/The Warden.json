@@ -1,0 +1,8 @@
+{
+  "BlackStigmata": [
+    "BlackStigmata_Main",
+    "BlackStigmata_Sub"
+  ],
+  "GoldenHideWarderFirstPhase": ["GoldenHideWarderSecondPhase"],
+  "GoldenFabricWarderFirstPhase": ["GoldenFabricWarderSecondPhase"]
+}
