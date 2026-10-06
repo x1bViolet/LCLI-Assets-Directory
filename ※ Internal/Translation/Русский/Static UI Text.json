@@ -1231,6 +1231,102 @@
         "Text": "Больший Масштаб = больше качества, больше времени на сканирование контента, больше размер файла, и ЕЩЁ БОЛЬШЕ потребления оперативной памяти (Вплоть до ~1.8 Гб)[b].[/b]\n\nПоследние две опции применяются к ключевым словам, которые в своём конечном виде совпадают с паттерном [size=92%][font=\"Consolas\"]<\u200Bsprite name=\"...\"><\u200Bcolor><\u200Bu><\u200Blink=\"...\">...</\u200Blink><\u200B/u><\u200B/color>[/font][/size] (С любым порядом открывающих и закрывающих [size=92%][font=\"Consolas\"]<\u200Blink=\"...\">[/font][/size], [size=92%][font=\"Consolas\"]<\u200Bu>[/font][/size] и [size=92%][font=\"Consolas\"]<\u200Bcolor>[/font][/size] тегов)[b].[/b]"
       }
     ],
+    [
+      {
+        "UID": {"[Settings / Discord RPC] * Section Name":null},
+        "Text": "⦁ Discord RPC"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Enable RPC":null},
+        "Text": "Включить Discord RPC"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type":null},
+        "Text": "Тип активности"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Playing":null},
+        "Text": "Играет"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Listening":null},
+        "Text": "Слушает"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Watching":null},
+        "Text": "Смотрит"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Competing":null},
+        "Text": "Соревнуется"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Main Menu":null},
+        "Text": "Главное меню"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Active Editor":null},
+        "Text": "Рекдактор", "Text Alignment": "Center"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Preview Creator":null},
+        "Text": "Предпросмотры"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Details Text":null},
+        "Text": "Детали"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * State Text":null},
+        "Text": "Статус"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Details Click URL":null},
+        "Text": "Ссылка при наведении на Детали"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * State Click URL":null},
+        "Text": "Ссылка при наведении на Статус"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Enable Button №1":null},
+        "Text": "Включить Кнопку №1"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №1 Label":null},
+        "Text": "Текст"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №1 Click URL":null},
+        "Text": "Ссылка"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Enable Button №2":null},
+        "Text": "Включить Кнопку №2"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №2 Label":null},
+        "Text": "Текст"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №2 Click URL":null},
+        "Text": "Ссылка"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Show Information":null},
+        "Text": "Показать информацию"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Information":null},
+        "Text": "• Лимит символов (Лишние символы преобразуются в \"..\" автоматически, не надо вручную отслеживать их количество)<b>:</b>\n  Текст Деталей и Статуса<b>:</b> <b>128</b>\n  Ссылки Деталей и Статуса<b>:</b> <b>256</b>\n  Текст Кнопки<b>:</b> <b>31</b>\n  Ссылка Кнопки<b>:</b> <b>512</b>\n• В дискорде нельзя увидеть кнопки на своей активности, они видны только другим людям.\n• Доступные вставки<b>:</b><b>\n  {selected_limbus_lang}\n  {ui_lang}\n  {ui_theme}\n  {file_name}\n  {editor_mode}\n  {current_object_id}\n  {current_object_name}\n  {current_object_number}\n  {total_objects_count}\n  {previewcreator_image_type}</b> (Text/Summary)<b>\n  {previewcreator_portrait_type}</b> (Identity/E.G.O)<b>\n  {previewcreator_rarity_or_risk_level}\n  {previewcreator_sinner_name}\n  {previewcreator_identity_or_ego_name}</b>"
+      }
+    ],
     
     [
       {

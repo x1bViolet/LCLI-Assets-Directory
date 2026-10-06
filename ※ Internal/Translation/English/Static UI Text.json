@@ -1231,6 +1231,102 @@
         "Text": "Larger Scale Factor = higher quality, more time to scan content, larger file size, and A LOT of RAM usage (Up to ~1.8 GB)[b].[/b]\n\nTwo last options is applied to all keywords that ultimately fit the [size=92%][font=\"Consolas\"]<\u200Bsprite name=\"...\"><\u200Bcolor><\u200Bu><\u200Blink=\"...\">...</\u200Blink><\u200B/u><\u200B/color>[/font][/size] pattern (With any order of opening and closing [size=92%][font=\"Consolas\"]<\u200Blink=\"...\">[/font][/size], [size=92%][font=\"Consolas\"]<\u200Bu>[/font][/size], and [size=92%][font=\"Consolas\"]<\u200Bcolor>[/font][/size] tags)[b].[/b]"
       }
     ],
+    [
+      {
+        "UID": {"[Settings / Discord RPC] * Section Name":null},
+        "Text": "⦁ Discord RPC"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Enable RPC":null},
+        "Text": "Enable Discord RPC"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type":null},
+        "Text": "Activity Type"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Playing":null},
+        "Text": "Playing"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Listening":null},
+        "Text": "Listening"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Watching":null},
+        "Text": "Watching"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Competing":null},
+        "Text": "Competing"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Main Menu":null},
+        "Text": "Main Menu"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Active Editor":null},
+        "Text": "Active Editor"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Preview Creator":null},
+        "Text": "Preview Creator"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Details Text":null},
+        "Text": "Details Text"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * State Text":null},
+        "Text": "State Text"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Details Click URL":null},
+        "Text": "Details Click URL"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * State Click URL":null},
+        "Text": "State Click URL"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Enable Button №1":null},
+        "Text": "Enable Button №1"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №1 Label":null},
+        "Text": "Label"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №1 Click URL":null},
+        "Text": "Click URL"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Enable Button №2":null},
+        "Text": "Enable Button №2"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №2 Label":null},
+        "Text": "Label"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №2 Click URL":null},
+        "Text": "Click URL"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Show Information":null},
+        "Text": "Show Information"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Information":null},
+        "Text": "• Characters limit (Excess characters are automatically converted to \"..\"; there is no need to manually track their count)<b>:</b>\n  Details and State Text<b>:</b> <b>128</b>\n  Details and State URL<b>:</b> <b>256</b>\n  Button Label<b>:</b> <b>31</b>\n  Button URL<b>:</b> <b>512</b>\n• You cannot see the buttons on your own activity status; they are visible only to other people.\n• Available insertions<b>:</b><b>\n  {selected_limbus_lang}\n  {ui_lang}\n  {ui_theme}\n  {file_name}\n  {editor_mode}\n  {current_object_id}\n  {current_object_name}\n  {current_object_number}\n  {total_objects_count}\n  {previewcreator_image_type}</b> (Text/Summary)<b>\n  {previewcreator_portrait_type}</b> (Identity/E.G.O)<b>\n  {previewcreator_rarity_or_risk_level}\n  {previewcreator_sinner_name}\n  {previewcreator_identity_or_ego_name}</b>"
+      }
+    ],
 
     [
       {

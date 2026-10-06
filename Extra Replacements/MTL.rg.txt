@@ -1,3 +1,5 @@
+{Unclickable Text} - <i>> <u>Авто-перевод</u> <</i>
+
 {Regex Option} - Счётчик эффектов цели
 
 * Pattern: Inflict \+(\d+) \[Vibration\] Count
@@ -76,10 +78,67 @@
   Replace: Получает $1 [Breath:`Дыхания`]
 
 
+* Pattern: and \+(\d+) \[\w+\] Count
+  Replace: и повышает его счётчик на $1
+
+
+
+
+{Regex Option} - Лимиты
+  
+* Pattern: \(max (\d+)(%)?\)
+  Replace: (До $1$2)
+  
+
+* Pattern: \(once per turn
+  Replace: (Единожды за ход
+  
+* Pattern: once per turn
+  Replace: единожды за ход
+  
+
+* Pattern: \((\d+) (times )?per turn
+  Replace: (До $1 раз за ход
+  
+* Pattern: (\d+) (times )?per turn
+  Replace: до $1 раз за ход
+  
+
+* Pattern: \(once per Encounter
+  Replace: (Единожды за битву
+  
+* Pattern: once per Encounter
+  Replace: единожды за битву
+  
+
+* Pattern: \((\d+) (times )?per Encounter
+  Replace: (До $1 раз за битву
+  
+* Pattern: (\d+) (times )?per Encounter
+  Replace: до $1 раз за битву
+  
+
+* Pattern: \(once per Skill
+  Replace: (Единожды за навык
+  
+* Pattern: once per Skill
+  Replace: единожды за навык
+  
+
+* Pattern: \((\d+) (times )?per Skill
+  Replace: (До $1 раз за навык
+  
+* Pattern: (\d+) (times )?per Skill
+  Replace: до $1 раз за навык
+
+
 
 
 {Regex Option} - Общее
-  
+    
+* Pattern: this turn and next turn
+  Replace: на этот и следующий ход
+
 * Pattern: next turn
   Replace: на следующий ход
 
@@ -89,12 +148,6 @@
 * Pattern: Gain
   Replace: Получает
 
-* Pattern: once per turn
-  Replace: Единожды за ход
-
-* Pattern: Activate \[Laceration\] on target once. Target loses 1 \[Laceration\] Count
-  Replace: Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1
-
 * Pattern: Deal \+(\d+)% damage on Critical Hit
   Replace: На $1% больше урона при критическом попадани
 
@@ -103,91 +156,64 @@
 
 * Pattern: Raise Stagger Threshold by (\d+)% of damage dealt
   Replace: Поднимает границу выносливости цели на $1% от нанесённого урона
-  
-* Pattern: \(max (\d+)(%)?\)
-  Replace: (До $1$2)
 
 
 
 
-{Regex Option} - <color=#fe0000>[DefeatDuel]</color> Наносит меньше урона
-  
-* Pattern: Deal -(\d+)% damage and damage dealt by this Skill cannot Stagger the target
-  Replace: Наносит на $1% меньше урона и не может оглушить цель
+{Regex Option} - Вторичные ключевые слова
 
 
+* Pattern: 1 \[Paralysis\]
+  Replace: 1 [Paralysis:`Паралич`]
+
+* Pattern: ([234]) \[Paralysis\]
+  Replace: $1 [Paralysis:`Паралича`]
+
+* Pattern: (\d+) \[Paralysis\]
+  Replace: $1 [Paralysis:`Параличей`]
 
 
-{Regex Option} - Наносит <color=#05c3ba>(<color=#2eabf1>\d<color=#f979ae>+</color></color>)</color> \[<color=#05c3ba>(<color=#2eabf1>\w<color=#f979ae>+</color></color>)</color>\] и повышает его счётчик на <color=#05c3ba>(<color=#2eabf1>\d<color=#f979ae>+</color></color>)</color>
-  
-* Pattern: Inflict 1 \[Laceration\] and \+(\d+) \[Laceration\] Count
-  Replace: Наносит 1 [Laceration:`Кровотечение`] и повышает его счётчик на $1
+* Pattern: ([234]) \[(\w+):`(Пониж|Повыш)ение(.*?)`]
+  Replace: $1 [$2:`$3ения$4`]
 
-* Pattern: Inflict (\d+) \[Laceration\] and \+(\d+) \[Laceration\] Count
-  Replace: Наносит $1 [Laceration:`Кровотечения`] и повышает его счётчик на $2
-  
-
-* Pattern: Inflict 1 \[Burst\] and \+(\d+) \[Burst\] Count
-  Replace: Наносит 1 [Burst:`Разрыв`] и повышает его счётчик на $1
-
-* Pattern: Inflict ([234]) \[Burst\] and \+(\d+) \[Burst\] Count
-  Replace: Наносит $1 [Burst:`Разрыва`] и повышает его счётчик на $2
-
-* Pattern: Inflict ([56789]) \[Burst\] and \+(\d+) \[Burst\] Count
-  Replace: Наносит $1 [Burst:`Разрывов`] и повышает его счётчик на $2
+* Pattern: Min & Max Speed
+  Replace: Минимальная и Максимальная Скорость
 
   
-* Pattern: Inflict 1 \[Vibration\] and \+(\d+) \[Vibration\] Count
-  Replace: Наносит 1 [Vibration:`Тремор`] и повышает его счётчик на $1
 
-* Pattern: Inflict (\d+) \[Vibration\] and \+(\d+) \[Vibration\] Count
-  Replace: Наносит $1 [Vibration:`Тремора`] и повышает его счётчик на $2
 
+
+
+{Regex Option} - Power~ +<color=#05c3ba>(<color=#2eabf1>\d<color=#f979ae>+</color></color>)</color> <color=#05c3ba>(</color>for every <color=#05c3ba>(<color=#2eabf1>\d<color=#f979ae>+</color></color>)</color><color=#05c3ba>|</color>if target has<color=#05c3ba>)</color> ...
   
-* Pattern: Inflict 1 \[Sinking\] and \+(\d+) \[Sinking\] Count
-  Replace: Наносит 1 [Sinking:`Утопание`] и повышает его счётчик на $1
+* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every (\d+) \[(\w+)\]( Potency)? on( the main)? target \(max (\d+)\)
+  Replace: $1 +$2 за каждые $3 [$4] на$6 цели (До $7)
 
-* Pattern: Inflict (\d+) \[Sinking\] and \+(\d+) \[Sinking\] Count
-  Replace: Наносит $1 [Sinking:`Утопания`] и повышает его счётчик на $2
 
+* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every ([234]) \(\[(\w+)\]( Potency)? \+ \[(\w+)\]( Potency)?\) on( the main)?( the)? target \(max (\d+)\)
+  Replace: $1 +$2 за каждые $3 единицы в сумме силы [$4] и [$6] на$8 цели (До $10)
+
+* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every ([56789]) \(\[(\w+)\]( Potency)? \+ \[(\w+)\]( Potency)?\) on( the main)?( the)? target \(max (\d+)\)
+  Replace: $1 +$2 за каждые $3 единиц в сумме силы [$4] и [$6] на$8 цели (До $10)
+
+
+* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every ([234]) \(\[(\w+)\]( Potency)? on self \+ \[(\w+)\]( Potency)? on( the)? target\) \(max (\d+)\)
+  Replace: $1 +$2 за каждые $3 единицы в сумме силы своего [$4] и [$6] на$8 цели (До $10)
+
+* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every ([56789]) \(\[(\w+)\]( Potency)? on self \+ \[(\w+)\]( Potency)? on( the)? target\) \(max (\d+)\)
+  Replace: $1 +$2 за каждые $3 единиц в сумме силы своего [$4] и [$5] на$8 цели (До $10)
   
-* Pattern: Inflict 1 \[Combustion\] and \+(\d+) \[Combustion\] Count
-  Replace: Наносит 1 [Combustion:`Огонь`] и повышает его счётчик на $1
 
-* Pattern: Inflict (\d+) \[Combustion\] and \+(\d+) \[Combustion\] Count
-  Replace: Наносит $1 [Combustion:`Огня`] и повышает его счётчик на $2
+* Pattern: the main 
+  Replace: главной 
 
-
-
-
-
-{Regex Option} - Сила~ +<color=#05c3ba>(<color=#2eabf1>\d<color=#f979ae>+</color></color>)</color> <color=#05c3ba>(</color>за каждые<color=#05c3ba>|</color>против<color=#05c3ba>)</color>..
-  
-* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every (\d+) \[(\w+)\] on target \(max (\d+)\)
-  Replace: $1 +$2 за каждые $3 [$4] на цели (До $5)
-
-
-
-* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every ([234]) \(\[(\w+)\] \+ \[(\w+)\]\) on target \(max (\d+)\)
-  Replace: $1 +$2 за каждые $3 единицы в сумме силы [$4] и [$5] на цели (До $6)
-
-* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every ([56789]) \(\[(\w+)\] \+ \[(\w+)\]\) on target \(max (\d+)\)
-  Replace: $1 +$2 за каждые $3 единиц в сумме силы [$4] и [$5] на цели (До $6)
-
-
-
-* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every ([234]) \(\[(\w+)\] on self \+ \[(\w+)\] on target\) \(max (\d+)\)
-  Replace: $1 +$2 за каждые $3 единицы в сумме силы своего [$4] и [$5] на цели (До $6)
-
-* Pattern: (Base Power|Final Power|Clash Power|Coin Power) \+(\d+) for every ([56789]) \(\[(\w+)\] on self \+ \[(\w+)\] on target\) \(max (\d+)\)
-  Replace: $1 +$2 за каждые $3 единиц в сумме силы своего [$4] и [$5] на цели (До $6)
-  
 
 * Pattern: If target has (\d+)\+ \[(\w+)\], (Base Power|Final Power|Clash Power|Coin Power) \+(\d+)
   Replace: $3 +$4 против целей с $1 и более [$2]
   
 * Pattern: If target has (\d+)\+ \(\[(\w+)\] \+ \[(\w+)\]\), (Base Power|Final Power|Clash Power|Coin Power) \+(\d+)
   Replace: $4 +$5 против целей с $1 и более единицами в сумме силы [$2] и [$3]
+
 
 
 
@@ -228,28 +254,10 @@
 
 
 
-
-{Regex Option} - (До <color=#05c3ba>(<color=#2eabf1>\d<color=#f979ae>+</color></color>)(</color>%<color=#05c3ba>)<color=#f979ae>?</color>(</color> за <color=#05c3ba>(</color>ход<color=#05c3ba>|</color>битву<color=#05c3ba>))</color><color=#f979ae>?</color>)
+{Regex Option} - <sprite name="VibrationExplosion"><color=#e30000><u>Tremor Burst</u></color> или <sprite name="Switch_Vibration"><color=#9f6a3a><u>Amplitude Conversion</u></color>
   
-* Pattern: \(once per turn\)
-  Replace: (Единожды за ход)
-
-* Pattern: \(twice per turn\)
-  Replace: (Дважды за ход)
-
-* Pattern: \(max (\d+)(%)?\)
-  Replace: (До $1$2)
-  
-* Pattern: \(max (\d+)(%)?( times)? per turn\)
-  Replace: (До $1$2 за ход)
-  
-* Pattern: \(max (\d+)(%)?( times)? per encounter\)
-  Replace: (До $1$2 за битву)
-
-
-
-
-{Regex Option} - <sprite name="VibrationExplosion"><color=#e30000><u>Провокация Тремора</u></color>
+* Pattern: Trigger \[Switch_Vibration\] into \[(\w+)\]
+  Replace: Производит [Switch_Vibration:`Преобразование амплитуды`] в [$1]
   
 * Pattern: Trigger \[VibrationExplosion\]; then, reduce target's \[Vibration\] Count by (\d+)
   Replace: [VibrationExplosion:`Провоцирует Тремор`] и понижает его счётчик на $1
@@ -259,3 +267,149 @@
   
 * Pattern: Trigger \[VibrationExplosion\]
   Replace: [VibrationExplosion:`Провоцирует Тремор`]
+
+
+
+
+{Regex Option} - Активация <sprite name="Laceration"><color=#e30000><u>Кровотечения</u></color>
+
+* Pattern: Activate \[Laceration\] on target once(\. Target loses 1 \[Laceration\] Count| \(target loses 1 \[Laceration\] Count\))
+  Replace: Активирует [Laceration:`Кровотечение`] на цели и понижает его счётчик на 1
+
+* Pattern: Activate \[Laceration\] on target ([234]) times. Target loses (\d+) \[Laceration\] Count
+  Replace: Активирует [Laceration:`Кровотечение`] на цели $1 раза и понижает его счётчик на $2
+
+* Pattern: Activate \[Laceration\] on target (\d+) times. Target loses (\d+) \[Laceration\] Count
+  Replace: Активирует [Laceration:`Кровотечение`] на цели $1 раз и понижает его счётчик на $2
+
+
+
+
+{Regex Option} - <color=#fe0000>[DefeatDuel]</color> Deal -<color=#05c3ba>(<color=#2eabf1>\d<color=#f979ae>+</color></color>)</color>% damage and ...
+  
+* Pattern: Deal -(\d+)% damage(;)?( and)? damage dealt by this Skill cannot Stagger the target
+  Replace: Наносит на $1% меньше урона и не может оглушить цель
+
+
+
+
+{Regex Option} - <color=#93f03f>[BeforeAttack]</color> Power~ -<color=#05c3ba>(<color=#2eabf1>\d<color=#f979ae>+</color></color>)</color> for every cracked ...
+  
+* Pattern: -(\d+) for every Cracked Coin \(max -(\d+)\)
+  Replace: -$1 за каждую расколотую в столкновении [SuperCoin:`Вечную монету`] (До -$2)
+
+* Pattern: Base Power
+  Replace: Базовая сила
+
+* Pattern: Final Power
+  Replace: Итоговая сила
+
+* Pattern: Clash Power
+  Replace: Сила в столкновении
+
+* Pattern: Coin Power
+  Replace: Сила монет
+
+
+
+
+
+
+{Separator}
+
+{Unclickable Text} - <i>> <u>Выделение текста</u> <</i>
+
+
+{Regex Option} - Жирный                 / <noparse><b></noparse>
+  
+* Pattern: ^(.*?)$
+  Replace: <b>$1</b>
+
+
+{Regex Option} - Нижнее подчёркивание / <noparse><u></noparse>
+  
+* Pattern: ^(.*?)$
+  Replace: <u>$1</u>
+
+
+{Regex Option} - Без переноса           / <noparse><nobr></noparse>
+  
+* Pattern: ^(.*?)$
+  Replace: <nobr>$1</nobr>
+
+
+{Regex Option} - Краеугольные скобки <size=150%> </size>/ 「」
+  
+* Pattern: ^(.*?)$
+  Replace: 「$1」
+
+
+{Regex Option} - Ссылка на <u>Б</u>азовый навык
+  
+* Pattern: Базов(\S+)
+  Replace: <link="ATL_Breath"><u>Б</u>азов$1</link>
+
+
+{Regex Option} - Выделение важного текста
+  
+* Pattern: ^(.*?)$
+  Replace: <color=#ff6000><mark=#ff000040><b><u>$1</u></b></mark></color>
+
+
+{Regex Option} - Автоподсветка <color=#00ff9c>ОЗ</color>, <color=#366ffb>OЗ Щита</color> и <color=#80c9ff>СД</color>
+  
+* Pattern: ОЗ Щита
+  Replace: <color=#366ffb>OЗ Щита</color>
+
+* Pattern: ОЗ
+  Replace: <color=#00ff9c>ОЗ</color>
+
+* Pattern: СД
+  Replace: <color=#80c9ff>ОЗ</color>
+
+
+  
+
+
+
+
+
+
+{Separator}
+
+{Unclickable Text} - <i>> <u>Выделение имена навыка</u> <</i>
+
+{Regex Option} - <image source="AppResource:///UI/Limbus/Skills/Affinity Icons/Wrath.png"><size=50%> </size>Гнев <size=90%>(#fe0101)
+  
+* Pattern: ^(.*?)$
+  Replace: <color=#fe0101>$1</color>
+
+{Regex Option} - <image source="AppResource:///UI/Limbus/Skills/Affinity Icons/Lust.png"><size=50%> </size>Похоть <size=90%>(#fe6f01)
+  
+* Pattern: ^(.*?)$
+  Replace: <color=#fe6f01>$1</color>
+
+{Regex Option} - <image source="AppResource:///UI/Limbus/Skills/Affinity Icons/Sloth.png"><size=50%> </size>Леность <size=90%>(#fed133)
+  
+* Pattern: ^(.*?)$
+  Replace: <color=#fed133>$1</color>
+
+{Regex Option} - <image source="AppResource:///UI/Limbus/Skills/Affinity Icons/Gluttony.png"><size=50%> </size>Чревоугодие <size=90%>(#a5fe06)
+  
+* Pattern: ^(.*?)$
+  Replace: <color=#a5fe06>$1</color>
+
+{Regex Option} - <image source="AppResource:///UI/Limbus/Skills/Affinity Icons/Gloom.png"><size=50%> </size>Уныние <size=90%>(#1cc7f1)
+  
+* Pattern: ^(.*?)$
+  Replace: <color=#1cc7f1>$1</color>
+
+{Regex Option} - <image source="AppResource:///UI/Limbus/Skills/Affinity Icons/Pride.png"><size=50%> </size>Гордыня <size=90%>(#014fd6)
+  
+* Pattern: ^(.*?)$
+  Replace: <color=#014fd6>$1</color>
+
+{Regex Option} - <image source="AppResource:///UI/Limbus/Skills/Affinity Icons/Envy.png"><size=50%> </size>Зависть <size=90%>(#9808de)
+  
+* Pattern: ^(.*?)$
+  Replace: <color=#9808de>$1</color>

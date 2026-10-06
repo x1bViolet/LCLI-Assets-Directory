@@ -1231,6 +1231,102 @@
         "Text": "較大的縮放比例 = 較高的品質、掃描內容耗時更久、檔案較大，且大量佔用記憶體（最高可達約 1.8 GB[b].[/b]\n\n最後兩個選項會套用於所有符合以下模式的關鍵詞：[size=92%][font=\"Consolas\"]<\u200Bsprite name=\"...\"><\u200Bcolor><\u200Bu><\u200Blink=\"...\">...</\u200Blink><\u200B/u><\u200B/color>[/font][/size]（開啟與關閉的[size=92%][font=\"Consolas\"]<\u200Blink=\"...\">[/font][/size], [size=92%][font=\"Consolas\"]<\u200Bu>[/font][/size], 與 [size=92%][font=\"Consolas\"]<\u200Bcolor>[/font][/size]標籤順序不限）[b].[/b]"
       }
     ],
+    [
+      {
+        "UID": {"[Settings / Discord RPC] * Section Name":null},
+        "Text": "⦁ Discord RPC(遊戲狀態)"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Enable RPC":null},
+        "Text": "啟用 Discord RPC\n<size=80%>(遊戲狀態)"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type":null},
+        "Text": "類型"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Playing":null},
+        "Text": "遊玩"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Listening":null},
+        "Text": "聆聽"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Watching":null},
+        "Text": "觀看"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Activity Type — Competing":null},
+        "Text": "競賽"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Main Menu":null},
+        "Text": "主選單"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Active Editor":null},
+        "Text": "目前編輯器", "Text Alignment": "Center"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Editing Scope Switch - Preview Creator":null},
+        "Text": "預覽創建器"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Details Text":null},
+        "Text": "詳細資訊文字"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * State Text":null},
+        "Text": "狀態文字"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Details Click URL":null},
+        "Text": "詳細資訊超連結"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * State Click URL":null},
+        "Text": "狀態超連結"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Enable Button №1":null},
+        "Text": "啟用按鈕 №1"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №1 Label":null},
+        "Text": "標籤"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №1 Click URL":null},
+        "Text": "超連結"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Enable Button №2":null},
+        "Text": "啟用按鈕 №2"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №2 Label":null},
+        "Text": "標籤"
+      },
+      {
+        "UID": {"[Settings / Discord RPC] * Button №2 Click URL":null},
+        "Text": "超連結"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Show Information":null},
+        "Text": "顯示資訊"
+      },
+
+      {
+        "UID": {"[Settings / Discord RPC] * Information":null},
+        "Text": "• 字元數限制（超出部分會自動轉換為「..」，無需手動計算字元數）<b>：</b>\n  詳細資訊與狀態文字<b>：</b> <b>128</b>\n  詳細資訊與狀態 URL<b>：</b> <b>256</b>\n  按鈕標籤<b>：</b> <b>31</b>\n  按鈕 URL<b>：</b> <b>512</b>\n• 你無法在自己的活動狀態中看到按鈕；只有其他人能看到。\n• 可用插入內容<b>：</b><b>\n  {selected_limbus_lang}\n  {ui_lang}\n  {ui_theme}\n  {file_name}\n  {editor_mode}\n  {current_object_id}\n  {current_object_name}\n  {current_object_number}\n  {total_objects_count}\n  {previewcreator_image_type}</b>（文字／摘要）<b>\n  {previewcreator_portrait_type}</b>（身分／E.G.O）<b>\n  {previewcreator_rarity_or_risk_level}\n  {previewcreator_sinner_name}\n  {previewcreator_identity_or_ego_name}</b>"
+      }
+    ],
     
     [
       {
