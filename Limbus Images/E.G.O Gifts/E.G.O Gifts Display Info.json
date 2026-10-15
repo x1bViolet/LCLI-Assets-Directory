@@ -3070,12 +3070,62 @@
     },
 
     {
-      "ID": 9260,
-      "Image": "Season 7/Intervallos/Twining Threads/Artworkː Pulsation",
+      "ID": 9284,
+      "Image": "Season 8/Mirror of Sisyphe/Out-of-style Rouge Clothing",
+      "Affinity": "Wrath",
+      "Keyword": "-",
+      "Tier": "3"
+    },
+    {
+      "ID": 9285,
+      "Image": "Season 8/Mirror of Sisyphe/Soda Pop",
+      "Affinity": "Sloth",
+      "Keyword": "-",
+      "Tier": "2"
+    },
+    {
+      "ID": 9286,
+      "Image": "Season 8/Mirror of Sisyphe/Maison du Noir Slacks",
+      "Affinity": "Envy",
+      "Keyword": "Tremor",
+      "Tier": "3"
+    },
+    {
+      "ID": 9287,
+      "Image": "Season 8/Mirror of Sisyphe/Le Noir Mary Janes",
+      "Affinity": "Sloth",
+      "Keyword": "Charge",
+      "Tier": "3"
+    },
+    {
+      "ID": 9288,
+      "Image": "Season 8/Mirror of Sisyphe/Straight Pin of the King of Needleworks",
+      "Affinity": "Lust",
+      "Keyword": "Charge",
+      "Tier": "3"
+    },
+    {
+      "ID": 9289,
+      "Image": "Season 8/Mirror of Sisyphe/Cartilage",
       "Affinity": "Envy",
       "Keyword": "Charge",
       "Tier": "3"
     },
+    {
+      "ID": 9290,
+      "Image": "Season 8/Mirror of Sisyphe/Blanket",
+      "Affinity": "Sloth",
+      "Keyword": "Charge",
+      "Tier": "2"
+    },
+    {
+      "ID": 9291,
+      "Image": "Season 8/Mirror of Sisyphe/Blossom Scissors",
+      "Affinity": "Envy",
+      "Keyword": "Charge",
+      "Tier": "2"
+    },
+
     {
       "ID": 9261,
       "Image": "Season 7/Intervallos/Twining Threads/Artworkː Ferity",
