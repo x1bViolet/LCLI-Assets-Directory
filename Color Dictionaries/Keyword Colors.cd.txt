@@ -1578,3 +1578,4 @@ BuffetFriendShield ¤ #a16a3b
 BuffetThirst ¤ #f8c200
 RougeFamilySinclair ¤ #f8c200
 
+SewingKingMark ¤ #e30000
