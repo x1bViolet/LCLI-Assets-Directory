@@ -1568,3 +1568,12 @@ BuffetRouge ¤ #f8c200
 BuffetScruple ¤ #f8c200
 BuffetResolve ¤ #a16a3b
 MeursaultBuffetEnd ¤ #f8c200
+
+HungrySinclair ¤ #f8c200
+TransformSinclair ¤ #f8c200
+BoneNailSinclair ¤ #e30000
+BuffetSinclair ¤ #f8c200
+DinnerField ¤ #a16a3b
+BuffetFriendShield ¤ #a16a3b
+BuffetThirst ¤ #f8c200
+RougeFamilySinclair ¤ #f8c200
