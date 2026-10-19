@@ -1555,7 +1555,7 @@ JeannePathos ¤ #f8c200
 JeanneLogos ¤ #f8c200
 JeanneCheat ¤ #e30000
 JeanneBlueprint ¤ #e30000
-BoneNail ¤ #f8c200
+BoneNail ¤ #e30000
 BuffetDream ¤ #e30000
 BuffetDream1 ¤ #e30000
 BuffetDream2 ¤ #e30000
