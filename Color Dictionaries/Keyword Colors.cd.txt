@@ -1591,4 +1591,4 @@ HowlingCocoonTwoAlly ¤ #f8c200
 NoirBindArmorAlly ¤ #f8c200
 ReadyToListenHonglu ¤ #f8c200
 TimeToListenHonglu ¤ #f8c200
-WarinessHonglu ¤ #f8c200
+WarinessHonglu ¤ #e30000
