@@ -1172,6 +1172,7 @@ RyoshuParrySojiThey ¤ #f8c200
 BlackNightmare ¤ #9f6a3a
 RyoshuParryIndexFingerWe ¤ #9f6a3a
 RyoshuParryIndexFingerThey ¤ #9f6a3a
+Shin_IndexFingerYisang ¤ #f8c200
 
 ObjectOfExploration ¤ #9f6a3a
 Inspire ¤ #f8c200
@@ -1579,3 +1580,15 @@ BuffetThirst ¤ #f8c200
 RougeFamilySinclair ¤ #f8c200
 
 SewingKingMark ¤ #e30000
+
+NiddlePinGather ¤ #a16a3b
+NiddlePinAlly ¤ #e30000
+NiddlePinnedAlly ¤ #e30000
+NeedlekinAlly ¤ #f8c200
+HowlingCocoonAlly ¤ #f8c200
+HowlingCocoonTwoAlly ¤ #f8c200
+
+NoirBindArmorAlly ¤ #f8c200
+ReadyToListenHonglu ¤ #f8c200
+TimeToListenHonglu ¤ #f8c200
+WarinessHonglu ¤ #f8c200

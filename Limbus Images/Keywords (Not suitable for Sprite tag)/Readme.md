@@ -3,11 +3,11 @@ These files are needed to override the sprite used for [KeywordID] keyword link 
 Structure of json file to create icon redirection:
 ```jsonc
 {
-  "ExistingKeywordImageID": {
+  "ExistingKeywordImageID": [
     "SomeOtherID1",
     "SomeOtherID2"
     // `SomeOtherID1` and `SomeOtherID2` will use `ExistingKeywordImageID` sprite when inserted through [KeywordID] in text or shown in the editor / pop-up info
-  }
+  ]
 }
 ```
 
@@ -23,16 +23,16 @@ Printing example using LC Localization Interface code infrastructure (`LimbusLoc
 ```cs
 FileInfo[] KeywordFiles =
 [
-    new(@"C:\Program Files (x86)\Steam\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\en\EN_BattleKeywords-a1c9p1.json"),
-    new(@"C:\Program Files (x86)\Steam\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\en\EN_BattleKeywords-a1c9p2.json"),
-    new(@"C:\Program Files (x86)\Steam\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\en\EN_BattleKeywords-a1c9p3.json")
+    new(@"C:\Program Files (x86)\Steam\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\en\EN_BattleKeywords-a1c10p1.json"),
+    new(@"C:\Program Files (x86)\Steam\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\en\EN_BattleKeywords-a1c10p2.json"),
+    new(@"C:\Program Files (x86)\Steam\steamapps\common\Limbus Company\LimbusCompany_Data\Assets\Resources_moved\Localize\en\EN_BattleKeywords-a1c10p3.json")
 ];
 string Total = "";
 foreach (FileInfo KeywordsFile in KeywordFiles)
 {
     foreach (PlainKeyword Keyword in KeywordsFile.DeserealizeJsonAs<LimbusLocalizationFile<PlainKeyword>>()!.DataList)
     {
-        Total += $"<sprite name=\\\"{Keyword.ID}\\\">\\n";
+        Total += $"<sprite name=\\\"{Keyword.ID}\\\"> :: {Keyword.ID}\\n";
     }
 }
 Clipboard.SetText(Total); // 'Clipboard' available only in WPF or WinForms

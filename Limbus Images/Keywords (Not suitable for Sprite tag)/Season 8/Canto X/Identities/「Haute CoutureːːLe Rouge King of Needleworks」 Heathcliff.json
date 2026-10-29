@@ -1,0 +1,7 @@
+{
+  "NiddleExpected": ["NiddlePinGather"],
+  "NiddlePin": ["NiddlePinAlly"],
+  "NiddlePinned": ["NiddlePinnedAlly"],
+  "HowlingCocoon": ["HowlingCocoonAlly"],
+  "HowlingCocoonTwo": ["HowlingCocoonTwoAlly"]
+}
