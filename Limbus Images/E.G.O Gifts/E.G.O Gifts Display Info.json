@@ -3127,6 +3127,21 @@
     },
 
     {
+      "ID": 9301,
+      "Image": "Season 8/Wuthering Heights",
+      "Affinity": "Gloom",
+      "Keyword": "Sinking",
+      "Tier": "4"
+    },
+    {
+      "ID": 9302,
+      "Image": "Season 8/The Measure of Frost",
+      "Affinity": "Pride",
+      "Keyword": "-",
+      "Tier": "3"
+    },
+
+    {
       "ID": 9260,
       "Image": "Season 7/Intervallos/Twining Threads/Artworkː Pulsation",
       "Affinity": "Envy",
