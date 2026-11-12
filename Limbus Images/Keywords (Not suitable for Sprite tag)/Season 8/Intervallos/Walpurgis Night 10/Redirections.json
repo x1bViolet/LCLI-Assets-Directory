@@ -1,0 +1,9 @@
+{
+  // 「The Sword Sharpened with Tears」 Hong Lu
+  "KnightBless": ["DespairKnightEGOProtect"],
+  "SwordCutwithTear": ["DespairKnightEGOSword"],
+  "DespairAlly": ["DespairKnightEGOMind"],
+
+  // 「Wedge Office Rep.」 Outis
+  "WalpuTenWedgeOffice": ["WedgeOffice"]
+}
