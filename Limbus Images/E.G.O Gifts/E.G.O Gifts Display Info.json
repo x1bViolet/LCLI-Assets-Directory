@@ -3127,6 +3127,70 @@
     },
 
     {
+      "ID": 9292,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/Role Model",
+      "Affinity": "Gluttony",
+      "Keyword": "-",
+      "Tier": "3"
+    },
+    {
+      "ID": 9293,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/Carefully-selected Medicinal Herbs",
+      "Affinity": "Wrath",
+      "Keyword": "Pierce",
+      "Tier": "3"
+    },
+    {
+      "ID": 9294,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/Hollow Pride",
+      "Affinity": "Pride",
+      "Keyword": "-",
+      "Tier": "1"
+    },
+    {
+      "ID": 9295,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/Pride of the Knight",
+      "Affinity": "Pride",
+      "Keyword": "-",
+      "Tier": "3"
+    },
+    {
+      "ID": 9296,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/Sword Laced with Grief",
+      "Affinity": "Pride",
+      "Keyword": "Sinking",
+      "Tier": "4"
+    },
+    {
+      "ID": 9297,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/White Cravat",
+      "Affinity": "Sloth",
+      "Keyword": "Pierce",
+      "Tier": "3"
+    },
+    {
+      "ID": 9298,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/Black Tricorne",
+      "Affinity": "Lust",
+      "Keyword": "Tremor",
+      "Tier": "2"
+    },
+    {
+      "ID": 9299,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/Backup Body Adaptation Device",
+      "Affinity": "Sloth",
+      "Keyword": "Tremor",
+      "Tier": "3"
+    },
+    {
+      "ID": 9300,
+      "Image": "Season 8/Intervallos/Walpurgis Night 10/Broken Spearhead",
+      "Affinity": "Gloom",
+      "Keyword": "Pierce",
+      "Tier": "2"
+    },
+
+    {
       "ID": 9301,
       "Image": "Season 8/Wuthering Heights",
       "Affinity": "Gloom",
